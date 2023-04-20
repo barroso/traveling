@@ -15,7 +15,7 @@ This simple travel (site) prototype shows how React with Typescript, Vite and Ta
 
 #### Timeline prints (continuous evolution)
 
-<img src="./assets/prints/print01.png" width="720" height="450">
+<img src="src/assets/prints/print01.png" width="720" height="450">
 
 ## Build/Run
 
