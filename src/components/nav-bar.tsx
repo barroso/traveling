@@ -1,7 +1,7 @@
-import { Outlet, Link } from "react-router-dom";
-import Menu from "../components/Menu/Menu";
+import { Link } from "react-router-dom";
+import Menu from "./Menu/Menu";
 
-function Root() {
+function NavBar() {
   return (
     <>
       <nav className="bg-white shadow-lg">
@@ -55,12 +55,8 @@ function Root() {
           {/* add mobile menu*/}
         </div>
       </nav>
-
-      <div id="detail">
-        <Outlet />
-      </div>
     </>
   );
 }
 
-export default Root;
+export default NavBar;
