@@ -1,8 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`[components] - Cart should render correctly 1`] = `
-<MenuItem
-  title="Test"
-  to="/test"
-/>
-`;

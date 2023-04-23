@@ -1,10 +1,14 @@
 import MenuItem from './MenuItem';
 //sample
 
-describe('[components] - Cart', () => {
+describe('[components] - Menu', () => {
   const setup = () => {
+    function setActiveItem(item: string): void {
+      console.log(item);
+    }
+
     return (
-        <MenuItem title='Test' to='/test'/>
+        <MenuItem title='Test' to='/test' onClick={() => setActiveItem("Your Dream")}/>
     );
   };
 

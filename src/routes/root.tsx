@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import MenuItem from "../components/Menu/MenuItem";
+import Menu from "../components/Menu/Menu";
 
 function Root() {
   return (
@@ -17,12 +17,7 @@ function Root() {
                   </Link>
               </div>
 
-              <div className="hidden md:flex items-center space-x-1">
-                <MenuItem title="Your Dream" to="/"/>
-                <MenuItem title="Services" to="about"/>
-                <MenuItem title="About" to="about"/>
-                <MenuItem title="Contact Us" to="contact"/>
-              </div>
+              <Menu />
             </div>
 
             <div className="hidden md:flex items-center space-x-3 ">
