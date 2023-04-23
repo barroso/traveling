@@ -6,6 +6,7 @@ import ErrorPage from "./error-page";
 import Root from "./routes/root.tsx";
 import About from "./routes/about.tsx";
 import Contact from "./routes/contact.tsx";
+import NotFound from "./pages/not-found.tsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    path: "*",
+    element: <NotFound />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
