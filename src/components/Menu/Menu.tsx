@@ -23,8 +23,8 @@ export default function Menu() {
   ]
   return (
       <div className="hidden md:flex items-center space-x-1">
-        {items.map(item => (
-          <MenuItem title={item.title} to={item.to} active={activeItem === item.title} onClick={() => setActiveItem(item.title)}/>  
+        {items.map((item, index) => (
+          <MenuItem key={index} title={item.title} to={item.to} active={activeItem === item.title} onClick={() => setActiveItem(item.title)}/>  
         ))} 
       </div>
     );

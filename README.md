@@ -17,6 +17,7 @@ This simple travel (site) prototype shows how React with Typescript, Vite and Ta
 
 <img src="src/assets/prints/print01.png" width="360" height="225">
 <img src="src/assets/prints/print02.png" width="360" height="225">
+<img src="src/assets/prints/print03.png" width="360" height="225">
 
 ## Build/Run
 
