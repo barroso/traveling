@@ -2,7 +2,7 @@ import OffersCard from "../components/Cards/OffersCard";
 
 export default function Board() {
   return (
-    <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap px-10 justify-center">
+    <div className="flex gap-10 py-10 flex-row flex-wrap justify-center">
       <OffersCard company="Hotel Colors" place="Paris" img="/hotel/hotel-de-ville-of-paris.jpeg" description="You'll be within a 10-minute drive of Paris Expo Porte de Versailles and Luxembourg Gardens"/>
       <OffersCard company="Hotel Collection" place="Chicago" img="/hotel/chicago.png" description="offers the amenities, services, and location that business and leisure traveler's desire"/>
       <OffersCard company="Hotel Blake" place="Chicago" img="/hotel/chicago-blake.png" description="unique city experience at our boutique hotel in the heart of downtown Chicago"/>
