@@ -13,11 +13,14 @@ This simple travel (site) prototype shows how React with Typescript, Vite and Ta
 - About
 - Contact Us
 
-#### Timeline prints (continuous evolution)
+<details>
+    <summary>Timeline (print screen)</summary>
+    <img src="src/assets/prints/print01.png" width="360" height="225">
+    <img src="src/assets/prints/print02.png" width="360" height="225">
+    <img src="src/assets/prints/print03.png" width="360" height="225">
+</details>
 
-<img src="src/assets/prints/print01.png" width="360" height="225">
-<img src="src/assets/prints/print02.png" width="360" height="225">
-<img src="src/assets/prints/print03.png" width="360" height="225">
+</br>
 
 ## Build/Run
 
@@ -39,7 +42,7 @@ npm run test
 
 ```
 
-## Step by Step 
+## Step by Step
 
 [ViteJS](https://vitejs.dev/guide/) and [React](https://react.dev/) + [Typescript](https://www.typescriptlang.org/)
 
