@@ -7,7 +7,7 @@ interface IProps {
 
 export default function OffersCard({ company, place, description, img }: IProps) {
   return (
-    <div className="rounded-[20px] max-w-[300px] bg-clip-border shadow-3xl shadow-shadow-500 w-full p-4 bg-gray-100 ">
+    <div className="rounded-[20px] max-w-[300px] bg-clip-border shadow-3xl shadow-shadow-500 w-full p-4 bg-gray-100 hover:bg-gray-200 cursor-pointer">
       <div className="basis-1/3 flex-1 ">
         <div>
           <img
