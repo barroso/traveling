@@ -17,7 +17,7 @@ export default function Menu() {
       to: "about"
     },
     {
-      title: "Contact Us",
+      title: "Contact",
       to: "contact"
     }
   ]
