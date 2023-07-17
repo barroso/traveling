@@ -10,7 +10,7 @@ export default function Menu() {
     },
     {
       title: "Services",
-      to: "about"
+      to: "services"
     },
     {
       title: "About",
